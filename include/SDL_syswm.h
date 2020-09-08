@@ -52,7 +52,7 @@ struct SDL_SysWMinfo;
 #ifndef NOMINMAX   /* don't define min() and max(). */
 #define NOMINMAX
 #endif
-#include <windows.h>
+#include <Windows.h>
 #endif
 
 #if defined(SDL_VIDEO_DRIVER_WINRT)
